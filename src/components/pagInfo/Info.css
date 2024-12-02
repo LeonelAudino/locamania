@@ -1,0 +1,28 @@
+/* Estilo general de la tarjeta */
+.info-card {
+    background-color: #f5eee9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/* Estilo para los títulos */
+.info-title {
+    color: #895835;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* Estilo para los párrafos */
+.info-paragraph {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}

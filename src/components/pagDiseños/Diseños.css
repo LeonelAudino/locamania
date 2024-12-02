@@ -1,0 +1,60 @@
+/* Container of the entire grid */
+.designs-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Individual item styles */
+.design-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Ensuring images have the same size */
+.design-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Title styles */
+.design-title {
+    padding: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+}
+
+/* Hover effect for cards */
+.design-item:hover {
+    transform: translateY(-10px);
+    /* Slight movement up */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    /* Deeper shadow */
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .designs-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .designs-container {
+        grid-template-columns: 1fr;
+    }
+}
