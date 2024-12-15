@@ -5,31 +5,31 @@ export default function Moldes() {
     const moldesData = [
         {
             id: 1,
-            imagen: 'imagen1.jpg',
+            imagen: '/images/moldes/model1.jpg',
             titulo: 'Taza Grande',
             componentes: ['Diámetro - 8,5cm', 'Alto - 9,5cm', 'Capacidad - 400cc'],
         },
         {
             id: 2,
-            imagen: 'imagen2.jpg',
+            imagen: '/images/moldes/model2.jpg',
             titulo: 'Taza Rústica',
             componentes: ['Diámetro - 7cm', 'Alto - 6cm', 'Capacidad - 200cc'],
         },
         {
             id: 3,
-            imagen: 'imagen3.jpg',
+            imagen: '/images/moldes/model4.jpg',
             titulo: 'Taza Bohemia',
             componentes: ['Diámetro - 7,5cm', 'Alto - 7,5cm', 'Capacidad - 300cc'],
         },
         {
             id: 4,
-            imagen: 'imagen4.jpg',
+            imagen: '/images/moldes/model3.jpg',
             titulo: 'Taza de Té/Café',
             componentes: ['Diámetro - 5,5cm', 'Alto - 7,5cm', 'Capacidad - 200cc'],
         },
         {
             id: 5,
-            imagen: 'imagen5.jpg',
+            imagen: '',
             titulo: 'Bandeja Rectangular',
             componentes: ['Alto - 17cm', 'Ancho - 25cm', '(la cerámica siempre achica algunos mm)'],
         },

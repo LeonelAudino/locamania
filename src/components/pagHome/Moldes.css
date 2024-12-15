@@ -5,7 +5,6 @@ h1 {
     font-weight: bold;
     margin: 20px 0;
     text-align: center;
-    /* Centra el título de la página */
 }
 
 /* Estilo para el contenedor principal de los moldes */
@@ -14,14 +13,12 @@ h1 {
     flex-direction: column;
     gap: 20px;
     align-items: center;
-    /* Centra los moldes horizontalmente */
 }
 
 /* Estilo de cada molde */
 .molde {
     display: flex;
     justify-content: flex-start;
-    /* Alinea todo el contenido hacia la izquierda */
     align-items: center;
     border: 1px solid #ddd;
     padding: 20px;
@@ -29,15 +26,17 @@ h1 {
     width: 80%;
     max-width: 800px;
     background-color: #f9f9f9;
-    /* Fondo suave para los moldes */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Estilo para la imagen */
 .molde-img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     margin-right: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Estilo para el contenedor de información (título y lista) */
@@ -45,11 +44,8 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    /* Alinea los elementos de forma vertical hacia la izquierda */
     text-align: left;
-    /* Alinea el texto a la izquierda */
     width: 100%;
-    /* Hace que la información ocupe todo el espacio disponible */
 }
 
 /* Estilo para el título de cada molde (h3) */
@@ -58,10 +54,8 @@ h1 {
     font-size: 1.8rem;
     font-weight: bold;
     color: #333;
-    /* Color del título */
     margin-bottom: 10px;
     text-align: left;
-    /* Alinea el título a la izquierda */
 }
 
 /* Estilo para la lista de componentes */
@@ -74,8 +68,6 @@ h1 {
     font-family: Arial, sans-serif;
     font-size: 1rem;
     color: #666;
-    /* Color de los componentes */
     margin-bottom: 8px;
     transition: all 0.3s ease;
-    /* Transición para el hover */
 }

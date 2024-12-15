@@ -1,8 +1,8 @@
 /* Estilo general de la tarjeta */
 .info-card {
-    background-color: #f5eee9;
+    background-color: #e9dbd1;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 20px;
     max-width: 600px;
     margin: 20px auto;
